@@ -1,31 +1,9 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
-
-# Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
-superuser: true
-
-# Highlight the author in author lists? (true/false)
-highlight_name: true
+title: WuJin
 
 # Role/position/tagline
-role: Chief Scientist
-
-# Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: OpenAI
-    url: https://openai.com/
+role: a student
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -47,65 +25,32 @@ profiles:
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+ -Reading (6 books a year)
+-Cooking (home cooking)
+-Citywalk
+
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  -Changshu Foreign Language Junior High School                September 2017 - June 2020
+   Changshu Foreign Language High School                       September 2020 - June 2023
+   The Taihu Lake University                                   September 2023 - until now
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+  peoject:
+  -Computing Systems:
+  An introduction to computing and its history. Inside the CPU Transistors, circuits and their logic. Memory. Secondary storage and file systems. Compilers and interpreters. Operating system and virtual memory. Input/output and gaming. Networks/network security/application security.
+  -Introduction To Programming:
+   This course covers the basics of Python syntax, such as variables, data types, loops, and conditional statements. It also includes the use of Python's powerful libraries and tools, such as NumPy (for numerical computation), Pandas (for data processing), and Matplotlib (for data visualization).
+  -Introduction To Web Development:
+  Obtain a basic understanding of the World Wide Web and client-server architecture. Utilize markup languages and stylesheet languages, namely HTML and CSS. Practice good UI (User Interface) and UX (User Experience) design. Use basic JavaScript to enhance the interactivity of your web applications.
+
+
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+Experience:
+  - Small project Development Assistant: 
+In some small startup teams, assist with simple software development work. For example, participate in the development of a simple web application, responsible for some of the basic modules of the code writing, such as user login, registration page front-end interface design and back-end logic implementation.
+ -Test case writing:
+Assist the test team in writing test cases. Extract test points and write detailed test cases according to software requirement document and function design.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -114,73 +59,43 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
+        percent: 40
+        
+      - name: HTML
         description: ''
         percent: 40
-        icon: circle-stack
+        
+      - name: C++
+        description: ''
+        percent: 30
+        
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Hiking
         description: ''
-        percent: 60
-        icon: person-simple-walk
+        percent: 50
+        
       - name: Cats
         description: ''
-        percent: 100
-        icon: cat
+        percent: 70
+        
       - name: Photography
         description: ''
-        percent: 80
-        icon: camera
-
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+        percent: 60
+    
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - title: Anti-fraud Drama Competition Second Prize
+  - title: Psychodrama Competition Third Prize
+    
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a computer major learner with solid professional knowledge. Proficient in Python language, which can be used for data analysis and processing; Proficient in PS, capable of efficient image editing and design; Familiar with HTML, can build basic web structure. I work seriously and responsibly, strictly control the details, and ensure the high quality of the work. Have good transaction processing skills, and can solve complex problems in an orderly manner. I am helpful and a good team player. Even in stressful situations, he remains calm, performs his tasks well, and is committed to contributing his maximum value to his work.
